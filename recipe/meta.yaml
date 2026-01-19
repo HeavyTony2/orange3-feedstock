@@ -73,8 +73,8 @@ requirements:
     - scikit-learn >=1.5.1
     - scipy >=1.9
     - serverfiles
-    - xgboost >=1.7.4,<2.1  # [darwin]
-    - xgboost >=1.7.4  # [not darwin]
+    - xgboost >=1.7.4,<2.1  # [osx]
+    - xgboost >=1.7.4  # [not osx]
     - xlrd >=1.2.0
     - xlsxwriter
 
